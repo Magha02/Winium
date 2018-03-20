@@ -1,0 +1,1 @@
+Taskkill /IM program.exe /FI "STATUS eq RUNNING" /F

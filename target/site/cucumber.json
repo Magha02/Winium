@@ -1,0 +1,78 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# new feature"
+      },
+      {
+        "line": 2,
+        "value": "# Tags: optional"
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5129020924,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "validating addition fuctionality with user inputs",
+        "description": "",
+        "id": "addition-functionality-validation;validating-addition-fuctionality-with-user-inputs",
+        "after": [
+          {
+            "result": {
+              "duration": 620821632,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6229836821,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "valid inputs",
+            "match": {
+              "location": "AdditionValidation.validInputs()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@navlogin"
+          }
+        ]
+      }
+    ],
+    "name": "Addition Functionality validation",
+    "description": "",
+    "id": "addition-functionality-validation",
+    "keyword": "Feature",
+    "uri": "Features/Cal.feature",
+    "tags": [
+      {
+        "line": 4,
+        "name": "@navlogin"
+      }
+    ]
+  }
+]
